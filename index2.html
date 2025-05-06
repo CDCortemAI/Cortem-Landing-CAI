@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAI: CortemGroup Artificial Intelligence</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      background: #fff;
+      max-width: 500px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      max-width: 180px;
+      margin: 0 auto 2rem;
+      display: block;
+    }
+    h1 {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    input, button {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #e63946;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background: #d62828;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn.openai.com/chatgpt/CAI_snail_logo.png" alt="Logo CAI" class="logo">
+    <h1>CAI: CortemGroup Artificial Intelligence</h1>
+    <p>
+      <strong>Ciao, sono CAI (Cortem Artificial Intelligence), la tua assistente virtuale esperta in materiale elettrico antideflagrante.</strong><br>
+      Sono stata addestrata per offrirti supporto tecnico qualificato, grazie a un vasto archivio di articoli tecnici redatti da Cortem Group nel corso degli anni.<br>
+      Hai una domanda? Prova a chiedere!<br>
+      Clicca sul pulsante qui sotto per iniziare: sarò felice di aiutarti.
+    </p>
+    <form action="https://formspree.io/f/tuo_id" method="POST">
+      <input type="text" name="nome" placeholder="Il tuo nome" required>
+      <input type="email" name="email" placeholder="La tua email" required>
+      <button type="submit">Fai una domanda</button>
+    </form>
+  </div>
+</body>
+</html>
