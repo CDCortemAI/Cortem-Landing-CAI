@@ -26,7 +26,9 @@
       display: block;
     }
     h1 {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      font-weight: bold;
     }
     p {
       margin-bottom: 2rem;
@@ -71,14 +73,13 @@
 <body>
   <div class="container">
     <img src="https://cdn.openai.com/chatgpt/CAI_snail_logo.png" alt="Logo CAI" class="logo">
-    <h1>CAI: CortemGroup Artificial Intelligence</h1>
+    <h1><strong>CAI</strong></h1>
     <p>
-      <strong>Ciao, sono CAI Cortem Artificial Intelligence, la tua assistente virtuale esperta in materiale elettrico antideflagrante.</strong><br>
-      Sono stata addestrata per offrirti supporto tecnico qualificato, grazie a un vasto archivio di articoli tecnici redatti da Cortem Group nel corso degli anni.<br>
-      <br>
-      Hai una domanda? Prova a chiedere!<br>
-      <br>
-      Clicca sul pulsante qui sotto per iniziare: sarò felice di aiutarti.
+      Ciao, sono <strong>CAI</strong> Cortem Artificial Intelligence, la tua assistente virtuale esperta in materiale elettrico antideflagrante.<br>
+      Sono stata addestrata per offrirti supporto tecnico qualificato, grazie a un vasto archivio di articoli tecnici redatti da Cortem Group nel corso degli anni.<br><br>
+      Hai una domanda? Prova a chiedere!<br><br>
+      Clicca sul pulsante qui sotto per iniziare: sarò felice di aiutarti.<br><br>
+      <em>ℹ️ Per usare CAI è necessario avere un account gratuito su <a href="https://chat.openai.com" target="_blank">chat.openai.com</a></em>
     </p>
     <form action="https://formspree.io/f/mpwdrzwb" method="POST" onsubmit="handleSubmit(event)">
       <input type="text" name="nome" placeholder="Il tuo nome" required>
@@ -88,4 +89,3 @@
   </div>
 </body>
 </html>
-
